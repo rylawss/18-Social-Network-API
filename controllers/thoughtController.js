@@ -62,6 +62,7 @@ module.exports = {
       }
 
       res.json(thought);
+      // res.json({ message: "Thought updated" });
     } catch (err) {
       console.log(err);
       return res.status(500).json(err);
